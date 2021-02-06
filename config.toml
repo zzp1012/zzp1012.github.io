@@ -24,11 +24,6 @@ name = "GitHub"
 icon = "github"
 url = "https://github.com/zzp1012/"
 
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/zhanpeng_zhou/"
-
 # Main menu Items
 
 [[menu.main]]
