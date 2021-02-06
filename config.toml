@@ -1,4 +1,4 @@
-baseURL = "https://zzp1012.github.io/"
+baseURL = "https://zzp1012.top/"
 languageCode = "en-us"
 title = "Zhanpeng Zhou"
 theme="archie"
@@ -7,7 +7,6 @@ copyright = "© Athul"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-publishdir = "./docs"
 paginate=3 # articles per page
 
 [params]
