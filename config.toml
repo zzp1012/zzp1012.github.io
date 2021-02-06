@@ -20,9 +20,20 @@ paginate=3
 # Social Tags
 
 [[params.social]]
-name = "GitHub"
-icon = "github"
+name = "Github"
 url = "https://github.com/zzp1012/"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/zzp1012/"
+
+[[params.social]]
+name = "Zhihu"
+url = "https://www.zhihu.com/people/zzp1012/"
+
+[[params.social]]
+name = "Weibo"
+url = "https://weibo.com/zhanpengzhou/"
 
 # Main menu Items
 
