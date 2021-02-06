@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zhanpeng Zhou</title>
-    <link>https://zzp1012.github.io/</link>
+    <link>https://zzp1012.top/</link>
     <description>Recent content on Zhanpeng Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Athul</copyright><atom:link href="https://zzp1012.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Athul</copyright><atom:link href="https://zzp1012.top/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
