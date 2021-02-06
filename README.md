@@ -1,5 +1,5 @@
 # Hi! 
-If you want to know about me, plz go my [home page](https://zzp1012.top/)
+If you want to know more about me, plz refer to my [home page](https://zzp1012.top/).
 
 <hr>
 
