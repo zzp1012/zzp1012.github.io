@@ -2,15 +2,12 @@
 <html>
 	{{ partial "header.html" . }}
 	<body>
-		<div class="content">
+		<div style="margin-top: 35vh" class="content">
 			{{ partial "head.html" . }}
-			
-			<main class="list">
-				<div class="site-description">
-					{{- if isset .Site.Params "subtitle" -}}
-					<p>{{ .Site.Params.Subtitle | markdownify }}</p>
-					{{- end -}}
-				</div>
+            <main class="list">
+                <article>
+                    {{ with .Site.GetPage "/profile" }}{{ .Content }}{{ end }}
+                </article>
 				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
 				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
 				{{ range $paginator.Pages }}
