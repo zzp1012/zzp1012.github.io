@@ -10,10 +10,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 # articles per page
-paginate=5
-
-# Number of characters to show in summary.
-summaryLength = 20
+paginate=3
 
 [params]
 	mode="auto" # color-mode → light,dark or auto
