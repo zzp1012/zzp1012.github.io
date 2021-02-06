@@ -3,15 +3,31 @@ languageCode = "en-us"
 title = "Zhanpeng Zhou"
 theme="archie"
 copyright = "© Athul"
+
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-paginate=3 # articles per page
+
+# articles per page
+paginate=5
+
+# Number of characters to show in summary.
+summaryLength = 20
 
 [params]
 	mode="auto" # color-mode → light,dark or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	# Blog subtitle which appears below blog title. Supports markdown.
+    subtitle = """
+I am a junior student of [UMJI-SJTU](https://www.ji.sjtu.edu.cn/), majored in Electric and Computer Engineering. Email: zzp1012@sjtu.edu.cn.
+	"""
+
+	# Content types which are included in home page recent posts list.
+    mainSections = ["posts"]
+
+    # Content types which are excludes Disqus comments.
+    disableDisqusTypes = ["page"]
 
 # Social Tags
 
@@ -28,16 +44,11 @@ url = "https://twitter.com/zhanpeng_zhou/"
 # Main menu Items
 
 [[menu.main]]
-name = "Home"
-url = "/"
+name = "All Posts"
+url = "/posts"
 weight = 1
 
 [[menu.main]]
-name = "Posts"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "About"
+name = "About Me"
 url = "/about"
-weight = 3
+weight = 2
