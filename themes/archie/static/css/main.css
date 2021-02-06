@@ -2,9 +2,9 @@
 :root{
 --maincolor: rgb(80, 75, 75);
 --bordercl:rgb(153, 151, 155);
---callouctcolor:dodgerblue;
+--callouctcolor:rgb(205, 208, 211);
 --hovercolor:rgb(49, 49, 51);
---darkMaincolor: #50fa7b;
+--darkMaincolor: #ffffff;
 }
 html {
   color: #232333d0;
