@@ -1,6 +1,6 @@
 baseURL = "https://zzp1012.github.io/"
 languageCode = "en-us"
-title = "Zhanpeng Zhou's Page"
+title = "Zhanpeng Zhou"
 theme="archie"
 copyright = "© Athul"
 # Code Highlight
@@ -8,7 +8,6 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 publishdir = "./docs"
-
 paginate=3 # articles per page
 
 [params]
@@ -35,7 +34,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
+name = "Posts"
 url = "/posts"
 weight = 2
 
@@ -43,8 +42,3 @@ weight = 2
 name = "About"
 url = "/about"
 weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
