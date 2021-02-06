@@ -14,6 +14,7 @@ paginate=3
 
 [params]
 	mode="auto" # color-mode → light,dark or auto
+	mainSections = ["posts", "publications", "projects"]
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
 	
 # Social Tags
@@ -36,16 +37,21 @@ url = "/posts"
 weight = 1
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
+name = "Publications"
+url = "/publications"
 weight = 2
 
 [[menu.main]]
-name = "Publications"
-url = "/publications"
+name = "Projects"
+url = "/projects"
 weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
 
 [[menu.main]]
 name = "About Me"
 url = "/about"
-weight = 4
+weight = 5
