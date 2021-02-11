@@ -1,9 +1,9 @@
 /* Markdown */
 :root{
---maincolor: rgb(80, 75, 75);
---bordercl:rgb(153, 151, 155);
---callouctcolor:rgb(205, 208, 211);
---hovercolor:rgb(49, 49, 51);
+--maincolor: rgb(0, 0, 0);
+--bordercl:rgb(110, 110, 110);
+--callouctcolor:rgb(255, 255, 255);
+--hovercolor:rgb(0, 0, 0);
 --darkMaincolor: #ffffff;
 }
 html {
