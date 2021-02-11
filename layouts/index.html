@@ -5,7 +5,7 @@
 		<div style="margin-top: 5vh" class="content">
 			{{ partial "head.html" . }}
             <main class="list">
-                <article>
+                <article style="margin-top: 2vh">
                     {{ with .Site.GetPage "/profile" }}{{ .Content }}{{ end }}
                 </article>
 				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
