@@ -28,6 +28,14 @@ name = "Weibo"
 url = "https://weibo.com/zhanpengzhou/"
 
 [[params.social]]
+name = "Facebook"
+url = "https://www.facebook.com/zzp1012/"
+
+[[params.social]]
+name = "Twitter"
+url = "https://twitter.com/zhanpeng_zhou/"
+
+[[params.social]]
 name = "Github"
 url = "https://github.com/zzp1012/"
 
