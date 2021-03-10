@@ -14,7 +14,7 @@ paginate=3
 
 [params]
 	mode="auto" # color-mode → light,dark or auto
-	mainSections = ["posts", "publications", "projects"]
+	mainSections = ["posts", "publications", "projects", "teaching"]
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
 	
 # Social Tags
@@ -30,6 +30,10 @@ url = "https://weibo.com/zhanpengzhou/"
 [[params.social]]
 name = "Facebook"
 url = "https://www.facebook.com/zzp1012/"
+
+[[params.social]]
+name = "Instagram"
+url = "https://www.instagram.com/zhou.zhanpeng/"
 
 [[params.social]]
 name = "Twitter"
