@@ -129,3 +129,31 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.works-filter {
+  margin-left: 8px;
+  white-space: nowrap;
+}
+
+.works-filter button {
+  padding: 5px 0;
+  border: 0;
+  background: none;
+  color: #1772d0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.works-filter button:hover {
+  color: #f09228;
+}
+
+.works-filter button[aria-pressed="true"] {
+  color: #000;
+  font-weight: 700;
+}
+
+.works-filter button:focus-visible {
+  outline: 2px solid #1772d0;
+  outline-offset: 3px;
+}

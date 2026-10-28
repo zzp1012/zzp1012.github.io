@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="works.js" defer></script>
   <link rel="icon" type="image/png" href="images/sjtulogored.png">
 </head>
 
@@ -55,13 +56,17 @@
             <tr>
             <td style="padding:20px 20px 5px 20px;width:100%;vertical-align:middle">
               <heading>Publications</heading>
+              <span class="works-filter" role="group" aria-label="Publications view" data-list="publications" hidden>
+                (<button type="button" data-mode="selected" aria-controls="publications" aria-pressed="true">Recent</button> /
+                <button type="button" data-mode="all" aria-controls="publications" aria-pressed="false">All</button>)
+              </span>
               &nbsp;
               (* indicates equal contributions; &dagger; indicates correspondence.)
             </td>
           </tr>
         </tbody></table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table id="publications" data-preview-count="8" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="tppt_stop()" onmouseover="tppt_start()">
             <td style="padding:5px 20px 5px 20px;width:100%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2609.39767">
@@ -77,7 +82,6 @@
             </td>
           </tr>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="loop_trans_stop()" onmouseover="loop_trans_start()">
             <td style="padding:5px 20px 5px 20px;width:100%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2609.37379">
@@ -93,7 +97,6 @@
             </td>
           </tr>
         
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="scaling_collapse_stop()" onmouseover="scaling_collapse_start()">
             <td style="padding:5px 20px 5px 20px;width:100%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2509.25049">
@@ -513,17 +516,22 @@
               <em>NeurIPS 2021</em>
               <br>
             </td>
+          </tr>
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px 20px 5px 20px;width:100%;vertical-align:middle">
               <heading>Blogs</heading>
+              <span class="works-filter" role="group" aria-label="Blogs view" data-list="blogs" hidden>
+                (<button type="button" data-mode="selected" aria-controls="blogs" aria-pressed="true">Recent</button> /
+                <button type="button" data-mode="all" aria-controls="blogs" aria-pressed="false">All</button>)
+              </span>
             </td>
           </tr>
         </tbody></table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table id="blogs" data-preview-count="4" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="nqm_stop()" onmouseover="nqm_start()">
             <td style="padding:5px 20px 5px 20px;width:100%;vertical-align:middle">
               <a href="https://hammerhead-piano-5a0.notion.site/Blog-A-Closer-Look-at-the-Noisy-Quadratic-Model-40114499130181a8a5dccdac73fd4dee">
@@ -537,7 +545,6 @@
             </td>
           </tr>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="fsl_stop()" onmouseover="fsl_start()">
             <td style="padding:5px 20px 5px 20px;width:100%;vertical-align:middle">
               <a href="https://hammerhead-piano-5a0.notion.site/Blog-A-Simple-Proof-of-the-Functional-Scaling-Law-3df14499130181a0b9d2fbff030a54ba">
@@ -551,7 +558,6 @@
             </td>
           </tr>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="ss_adagrad_stop()" onmouseover="ss_adagrad_start()">
             <td style="padding:5px 20px 5px 20px;width:100%;vertical-align:middle">
               <a href="https://hammerhead-piano-5a0.notion.site/Blog-AdaGrad-Variants-Choices-of-Kronecker-factors-3d41449913018106bd1dcafe54f999d5">
@@ -565,7 +571,6 @@
             </td>
           </tr>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="nexus_stop()" onmouseover="nexus_start()">
             <td style="padding:5px 20px 5px 20px;width:100%;vertical-align:middle">
               <a href="https://hammerhead-piano-5a0.notion.site/Blog-The-Counterpart-of-Gradient-Accumulation-3d114499130181e48ea8ec8266bf3379">
@@ -579,7 +584,6 @@
             </td>
           </tr>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="square_root_stop()" onmouseover="square_root_start()">
             <td style="padding:5px 20px 5px 20px;width:100%;vertical-align:middle">
               <a href="https://hammerhead-piano-5a0.notion.site/Blog-Square-Roots-in-Adaptive-Optimization-3cf144991301814692eece2d658a840d">
@@ -593,7 +597,6 @@
             </td>
           </tr>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="diagonal_hessian_stop()" onmouseover="diagonal_hessian_start()">
             <td style="padding:5px 20px 5px 20px;width:100%;vertical-align:middle">
               <a href="https://hammerhead-piano-5a0.notion.site/Blog-Estimate-Diagonal-Hessian-36014499130180b5b077e6d1511b729e">
@@ -607,7 +610,6 @@
             </td>
           </tr>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="pmuon_stop()" onmouseover="pmuon_start()">
             <td style="padding:5px 20px 5px 20px;width:100%;vertical-align:middle">
               <a href="https://github.com/KellerJordan/modded-nanogpt/pull/285#event-25350535233">
@@ -621,7 +623,6 @@
             </td>
           </tr>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="explain_muon_stop()" onmouseover="explain_muon_start()">
             <td style="padding:5px 20px 5px 20px;width:100%;vertical-align:middle">
               <a href="https://hammerhead-piano-5a0.notion.site/Blog-Deriving-and-Explaining-Muon-3491449913018064b941fb003e7b01e7?pvs=74">
